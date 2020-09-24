@@ -22,17 +22,39 @@ const workExperience = () => {
             , responsibilities: ["Developed UI and business logic of new features to be integrated in the website in .NET.", "Developed SQL stored procedures.", "Automated SQL scripting tasks that used to take 2 weeks/module to complete when typed manually. With the software written in object-oriented Excel VBA, the time taken to generate the scripts was cut down by 60% per module."]
         },
     };
-
-    const items = Object.keys(details).map(key =>
+    
+    const allItems = Object.keys(details).map(key =>
         <WorkTab key={key} companyname={details[key].companyname} detail={details[key].detail} responsibilities={details[key].responsibilities} />
     );
+
+    const allItemsExceptFirst = Object.keys(details).slice(1).map(key => (
+        <div class="carousel-item">
+            <WorkTab key={key} companyname={details[key].companyname} detail={details[key].detail} responsibilities={details[key].responsibilities} />
+        </div>
+    ));
 
     return (
         <Aux>
             <div className="experience">
                 <Title title="Work Experience" inverted={true} />
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            {allItems[0]}
+                        </div>
+                        {allItemsExceptFirst}
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
                 <div className="row work-row">
-                    {items}
+                    {allItems}
                 </div>
             </div>
             <svg className="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#990000" fill-opacity="1" d="M0,288L48,250.7C96,213,192,139,288,112C384,85,480,107,576,144C672,181,768,235,864,234.7C960,235,1056,181,1152,149.3C1248,117,1344,107,1392,101.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>

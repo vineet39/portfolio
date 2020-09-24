@@ -3,6 +3,10 @@
         margin-top: -10px;
     }
     
+    .experience .work-row {
+        display: none;
+    }
+    
     .svg {
         margin-top: -1px;
     }
@@ -17,7 +21,7 @@
         .experience .work-row {
             display: block;
         }
-        .carouselExampleIndicators {
+        #carouselExampleIndicators {
             display: none;
         }
         .experience {
