@@ -1,6 +1,6 @@
 .profile {
     align-items: center;
-    padding-top: 5vw;
+    padding-top: 10vw;
     padding-bottom: 5vw;
     margin-top: 0px;
     background-color: #990000;
@@ -39,6 +39,10 @@ h3 {
 
 .profile a.profile-btn:hover {
     text-decoration: none;
+}
+
+.svg {
+    margin-top: -1px;
 }
 
 @media screen and (max-width: 700px) {

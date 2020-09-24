@@ -3,6 +3,10 @@
         margin-top: -10px;
     }
     
+    .svg {
+        margin-top: -1px;
+    }
+    
     @media screen and (max-width: 683px) {
         .experience {
             scroll-margin-top: 95px;
