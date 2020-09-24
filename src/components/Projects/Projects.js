@@ -11,16 +11,16 @@ import burger_img from '../../assets/images/burger.png';
 
 const projects = () => {
     const details = {
-        first: { img: bank_img, title: "Client Banking Website", skills: ".Net Core 3.0" },
-        second: { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8" },
-        third: { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native" },
-        fourth: { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS" },
-        fifth: { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services" },
-        sixth: { img: burger_img, title: "Burger App(In Progress)", skills: "ReactJS" }
+        first: { img: bank_img, title: "Client Banking Website", skills: ".Net Core 3.0", url: "https://github.com/rmit-wdt2020/customer-banking-application" },
+        second: { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8", url: "https://github.com/rmit-wdt2020/admin-banking-application" },
+        third: { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native", url: "https://github.com/rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters" },
+        fourth: { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: "https://github.com/rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website" },
+        fifth: { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: "https://github.com/rmit-s3740446-Ryan-Cassidy/CC-Assignment" },
+        sixth: { img: burger_img, title: "Burger App(In Progress)", skills: "React JS", url: "https://github.com/vineet39/react-burger-app.git" }
     };
 
     const items = Object.keys(details).map(key =>
-        <Card key={key} img={details[key].img} title={details[key].title} skills={details[key].skills} />
+        <Card key={key} img={details[key].img} title={details[key].title} skills={details[key].skills} url={details[key].url} />
     );
 
     return (
