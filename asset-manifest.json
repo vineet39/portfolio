@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2ed8960c.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.3bea979a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.3bea979a.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/css/2.ad257b39.chunk.css": "/react-portfolio/static/css/2.ad257b39.chunk.css",
-    "static/js/2.40449f67.chunk.js": "/react-portfolio/static/js/2.40449f67.chunk.js",
-    "static/js/2.40449f67.chunk.js.map": "/react-portfolio/static/js/2.40449f67.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "precache-manifest.55754a02b28366f99febd71b18c12efd.js": "/react-portfolio/precache-manifest.55754a02b28366f99febd71b18c12efd.js",
-    "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/2.ad257b39.chunk.css.map": "/react-portfolio/static/css/2.ad257b39.chunk.css.map",
-    "static/css/main.2ed8960c.chunk.css.map": "/react-portfolio/static/css/main.2ed8960c.chunk.css.map",
-    "static/js/2.40449f67.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.40449f67.chunk.js.LICENSE.txt",
-    "static/media/bank.jpg": "/react-portfolio/static/media/bank.6907bf0f.jpg",
-    "static/media/burger.png": "/react-portfolio/static/media/burger.00d967dc.png",
-    "static/media/font-awesome.min.css": "/react-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/jemena.png": "/react-portfolio/static/media/jemena.b244c809.png",
-    "static/media/rpc.jpg": "/react-portfolio/static/media/rpc.bec60248.jpg"
+    "main.css": "/portfolio/static/css/main.2ed8960c.chunk.css",
+    "main.js": "/portfolio/static/js/main.34d764f7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.34d764f7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/css/2.dcf46461.chunk.css": "/portfolio/static/css/2.dcf46461.chunk.css",
+    "static/js/2.fbd88c0f.chunk.js": "/portfolio/static/js/2.fbd88c0f.chunk.js",
+    "static/js/2.fbd88c0f.chunk.js.map": "/portfolio/static/js/2.fbd88c0f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.7d31b56f46fa947861c5cd4445cf273b.js": "/portfolio/precache-manifest.7d31b56f46fa947861c5cd4445cf273b.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.dcf46461.chunk.css.map": "/portfolio/static/css/2.dcf46461.chunk.css.map",
+    "static/css/main.2ed8960c.chunk.css.map": "/portfolio/static/css/main.2ed8960c.chunk.css.map",
+    "static/js/2.fbd88c0f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fbd88c0f.chunk.js.LICENSE.txt",
+    "static/media/bank.jpg": "/portfolio/static/media/bank.6907bf0f.jpg",
+    "static/media/burger.png": "/portfolio/static/media/burger.00d967dc.png",
+    "static/media/font-awesome.min.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/jemena.png": "/portfolio/static/media/jemena.b244c809.png",
+    "static/media/rpc.jpg": "/portfolio/static/media/rpc.bec60248.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.213b1880.js",
-    "static/css/2.ad257b39.chunk.css",
-    "static/js/2.40449f67.chunk.js",
+    "static/js/runtime-main.209c2d7e.js",
+    "static/css/2.dcf46461.chunk.css",
+    "static/js/2.fbd88c0f.chunk.js",
     "static/css/main.2ed8960c.chunk.css",
-    "static/js/main.3bea979a.chunk.js"
+    "static/js/main.34d764f7.chunk.js"
   ]
 }
