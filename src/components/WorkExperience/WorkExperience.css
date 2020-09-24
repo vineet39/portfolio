@@ -1,0 +1,31 @@
+    .experience {
+        background-color: #990000;
+        margin-top: -10px;
+    }
+    
+    @media screen and (max-width: 683px) {
+        .experience {
+            scroll-margin-top: 95px;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        .experience .work-row {
+            display: block;
+        }
+        .carouselExampleIndicators {
+            display: none;
+        }
+        .experience {
+            padding-bottom: 10px;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .experience {
+            scroll-margin-top: 55px;
+        }
+        .experience h2 {
+            font-size: 1.6rem;
+        }
+    }

@@ -1,0 +1,29 @@
+.title {
+    color: #990000;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.title-inverted {
+    color: white;
+}
+
+.title-bottom {
+    background-color: #990000;
+    height: 5px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.title-bottom-inverted {
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+    .title h2 {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,40 @@
+.my-card {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.card-body {
+    text-align: center;
+    color: #990000;
+}
+
+.card-body a span {
+    color: #ffffff;
+}
+
+.card-img-top {
+    border-bottom: 5px solid #990000;
+}
+
+.card-body a {
+    background-color: #990000;
+}
+
+.card-body a.btn:hover {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #990000;
+}
+
+.card-body a.btn:hover .btntext {
+    color: #990000;
+}
+
+@media screen and (max-width: 767px) {
+    .my-card {
+        max-width: 60%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}

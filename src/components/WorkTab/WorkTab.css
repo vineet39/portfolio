@@ -1,0 +1,41 @@
+.work-tab {
+    border: 5px solid;
+    border-color: #ffffff;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #990000;
+    font-weight: bold;
+    border-radius: 20px;
+    /* text-align: center; */
+    min-height: 350px;
+}
+
+.work-tab h4,
+h5 {
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    .work-tab {
+        width: 80%;
+        min-height: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .work-tab h4 {
+        font-size: 1.3rem;
+    }
+    .work-tab h5 {
+        font-size: 1.1rem;
+    }
+    .profile h2 {
+        font-size: 1.5rem;
+    }
+    .work-tab {
+        width: 90%;
+        min-height: 0;
+    }
+}
