@@ -1,5 +1,5 @@
 .title {
-    color: #990000;
+    color: var(--color-primary);
     text-align: center;
     margin-bottom: 5px;
     font-weight: bold;
@@ -11,7 +11,7 @@
 }
 
 .title-bottom {
-    background-color: #990000;
+    background-color: var(--color-primary);
     height: 5px;
     width: 200px;
     margin: auto;
@@ -19,7 +19,7 @@
 }
 
 .title-bottom-inverted {
-    background-color: #ffffff;
+    background-color: var(--color-secondary);
 }
 
 @media screen and (max-width: 500px) {

@@ -1,5 +1,5 @@
 .contact-me {
-    color: #990000;
+    color: var(--color-primary);
     text-align: center;
     font-weight: 700;
 }

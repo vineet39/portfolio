@@ -5,8 +5,8 @@
     z-index: 99999;
     border: none;
     outline: none;
-    background-color: #990000;
-    color: #ffffff;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
     cursor: pointer;
     height: 50px;
     width: 50px;
@@ -21,8 +21,8 @@
 }
 
 #myBtn:active {
-    background-color: #ffffff;
-    color: #990000;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
     border: 1px solid;
-    border-color: #990000;
+    border-color: var(--color-primary);
 }

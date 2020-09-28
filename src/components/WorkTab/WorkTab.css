@@ -1,11 +1,11 @@
 .work-tab {
     border: 5px solid;
-    border-color: #ffffff;
+    border-color: var(--color-secondary);
     width: 60%;
     margin: auto;
     margin-bottom: 20px;
-    background-color: #ffffff;
-    color: #990000;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
     font-weight: bold;
     border-radius: 20px;
     /* text-align: center; */
