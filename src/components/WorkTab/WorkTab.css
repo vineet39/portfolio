@@ -8,13 +8,13 @@
     color: var(--color-primary);
     font-weight: bold;
     border-radius: 20px;
-    /* text-align: center; */
     min-height: 350px;
 }
 
 .work-tab h4,
 h5 {
     text-align: center;
+    color: var(--color-primary);
 }
 
 @media screen and (max-width: 991px) {

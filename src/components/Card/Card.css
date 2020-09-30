@@ -5,8 +5,16 @@
 }
 
 .card-body {
-    text-align: center;
-    color: var(--color-primary);
+    text-align: center !important;
+    color: var(--color-primary) !important;
+}
+
+.card-body h5 {
+    color: var(--color-primary) !important;
+}
+
+.card-body h6 {
+    color: var(--color-primary) !important;
 }
 
 .card-body a span {

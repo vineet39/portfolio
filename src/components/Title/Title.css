@@ -1,17 +1,21 @@
 .title {
-    color: var(--color-primary);
     text-align: center;
     margin-bottom: 5px;
     font-weight: bold;
     padding-top: 10px;
+    font-size: 2rem;
 }
 
-.title-inverted {
-    color: white;
+.title h2 {
+    color: var(--color-primary);
+}
+
+.title-inverted h2 {
+    color: white !important;
 }
 
 .title-bottom {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary) !important;
     height: 5px;
     width: 200px;
     margin: auto;
@@ -19,7 +23,7 @@
 }
 
 .title-bottom-inverted {
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary) !important;
 }
 
 @media screen and (max-width: 500px) {

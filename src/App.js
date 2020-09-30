@@ -10,11 +10,12 @@ import ScrollToTop from '../src/containers/ScrollToTop/ScrollToTop';
 function App() {
   return (
     <Aux>
+      <ScrollToTop />
       <Profile />
       <Projects />
       <WorkExperience />
       <Contact />
-      <ScrollToTop />
+      
     </Aux>
   );
 }

@@ -3,3 +3,15 @@
         scroll-margin-top: 95px;
     }
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    color: var(--color-primary);
+}
+
+.pagination * {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    outline: none;
+}
