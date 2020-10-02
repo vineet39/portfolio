@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import classes from './ScrollToTop.css';
+import Aux from '../../hoc/Aux';
 
 export default class ScrollToTop extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ export default class ScrollToTop extends Component {
 
   componentDidMount() {
     var scrollComponent = this;
-    document.addEventListener("scroll", function(e) {
+    document.addEventListener("scroll", function (e) {
       scrollComponent.toggleVisibility();
     });
   }
@@ -26,6 +27,10 @@ export default class ScrollToTop extends Component {
         is_visible: false
       });
     }
+    let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+        height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+        scrolled = (winScroll / height) * 100;
+    document.getElementById("progressBar").style.width = scrolled + "%";
   }
 
   scrollToTop() {
@@ -34,15 +39,21 @@ export default class ScrollToTop extends Component {
       behavior: "smooth"
     });
   }
-
   render() {
     const { is_visible } = this.state;
     return (
-      <div className="scroll-to-top">
-        {is_visible && (
-          <button onClick={() => this.scrollToTop()} id="myBtn"><i class="fa fa-arrow-up"></i></button>
-        )}
-      </div>
+      <Aux>
+        <div className="scroll-to-top">
+          {is_visible && (
+            <button onClick={() => this.scrollToTop()} id="myBtn"><i class="fa fa-arrow-up"></i></button>
+          )}
+        </div>
+        <div className="header">
+          <div className="progress-container">
+            <div className="progressBar" id="progressBar"></div>
+          </div>
+        </div>
+      </Aux>
     );
   }
 }
