@@ -12,13 +12,15 @@ import 'antd/dist/antd.css';
 import { Pagination } from 'antd';
 import classes from './Projects.css';
 
+const baseURL = "https://github.com/";
+
 const details = [
-    { img: bank_img, title: "Client Banking Website", skills: ".Net Core 3.0", url: "https://github.com/rmit-wdt2020/customer-banking-application" },
-    { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8", url: "https://github.com/rmit-wdt2020/admin-banking-application" },
-    { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native", url: "https://github.com/rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters" },
-    { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: "https://github.com/rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website" },
-    { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: "https://github.com/rmit-s3740446-Ryan-Cassidy/CC-Assignment" },
-    { img: burger_img, title: "Burger App(In Progress)", skills: "React JS", url: "https://github.com/vineet39/react-burger-app.git" }
+    { img: bank_img, title: "Client Banking Website", skills: ".Net Core 3.0", url: baseURL + "rmit-wdt2020/customer-banking-application" },
+    { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8", url: baseURL + "rmit-wdt2020/admin-banking-application" },
+    { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters" },
+    { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website" },
+    { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: baseURL + "rmit-s3740446-Ryan-Cassidy/CC-Assignment" },
+    { img: burger_img, title: "Burger App(In Progress)", skills: "React JS", url: baseURL + "vineet39/react-burger-app.git" }
 ];
 
 const defaultCurrent = 1;
