@@ -8,6 +8,7 @@ import jemena_img from '../../assets/images/jemena.png';
 import rpc_img from '../../assets/images/rpc.jpg';
 import aws_img from '../../assets/images/aws.png';
 import burger_img from '../../assets/images/burger.png';
+import psd_img from '../../assets/images/psd.png';
 import 'antd/dist/antd.css';
 import { Pagination } from 'antd';
 import classes from './Projects.css';
@@ -18,9 +19,10 @@ const details = [
     { img: bank_img, title: "Client Banking Website", skills: ".Net Core 3.0", url: baseURL + "rmit-wdt2020/customer-banking-application" },
     { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8", url: baseURL + "rmit-wdt2020/admin-banking-application" },
     { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters" },
-    { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website" },
+    { img: psd_img, title: "PSD To HTML", skills: "Adobe PhotoShop, HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/psd-to-html-1" },
     { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: baseURL + "rmit-s3740446-Ryan-Cassidy/CC-Assignment" },
-    { img: burger_img, title: "Burger App(In Progress)", skills: "React JS", url: baseURL + "vineet39/react-burger-app.git" }
+    { img: burger_img, title: "Burger App(In Progress)", skills: "React JS", url: baseURL + "vineet39/react-burger-app.git" },
+    { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website" }
 ];
 
 const defaultCurrent = 1;
