@@ -4,7 +4,7 @@ import classNames from './Profile.css';
 
 const profile = () => {
     const details = {
-        intro: "Hii! I am Vineet Bugtani",
+        intro: "My name is Vineet. I am a...",
         profile: "Analytically minded and collaborative individual desiring the job of a software developer. Bringing expertise in writing both front-end and back-end code with a willingness to learn new technologies and embrace challenging tasks at work.",
     };
 
