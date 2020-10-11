@@ -8,6 +8,8 @@
 
 .title h2 {
     color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .title-inverted h2 {

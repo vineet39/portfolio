@@ -12,8 +12,8 @@ function App() {
     <Aux>
       <ScrollToTop />
       <Profile />
-      <Projects />
       <WorkExperience />
+      <Projects />
       <Contact />
       
     </Aux>

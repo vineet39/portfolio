@@ -3,12 +3,12 @@
     padding-top: 10vw;
     padding-bottom: 5vw;
     margin-top: 0px;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
 }
 
 .profile h2,
 h3 {
-    color: var(--color-secondary);
+    color: var(--color-primary);
     width: 60%;
     margin: auto;
     text-align: center;
@@ -16,7 +16,7 @@ h3 {
 }
 
 .profile h2 {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .profile h3 {
@@ -24,21 +24,26 @@ h3 {
 }
 
 .profile-btntext {
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .profile-btn {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     padding: 15px;
     display: block;
     margin: auto;
     width: 200px;
     margin-top: 30px;
     border-radius: 5px;
+    color: var(--color-secondary);
 }
 
-.profile a.profile-btn:hover {
+.profile-btn:hover {
     text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .svg {

@@ -1,7 +1,7 @@
 .contact-me {
-    color: var(--color-primary);
+    color: var(--color-secondary);
     text-align: center;
-    font-weight: 700;
+    background-color: var(--color-primary);
 }
 
 .footer {
