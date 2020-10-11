@@ -81,4 +81,8 @@ h3 {
         padding: 10px;
         width: 180px;
     }
+    .profile h2,
+    h3 {
+        width: 100%
+    }
 }
