@@ -73,4 +73,12 @@ h3 {
     .profile h3 {
         font-size: 1.4rem;
     }
+    .profile {
+        padding-top: 20vw;
+        padding-bottom: 10vw;
+    }
+    .profile-btn {
+        padding: 10px;
+        width: 180px;
+    }
 }
