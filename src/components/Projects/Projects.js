@@ -9,6 +9,8 @@ import rpc_img from '../../assets/images/rpc.jpg';
 import aws_img from '../../assets/images/aws.png';
 import burger_img from '../../assets/images/burger.png';
 import psd_img from '../../assets/images/psd.png';
+import carrental_one_img from '../../assets/images/carrental_one.jpg';
+import carrental_two_img from '../../assets/images/carrental_two.jpg';
 import 'antd/dist/antd.css';
 import { Pagination } from 'antd';
 import classes from './Projects.css';
@@ -21,6 +23,8 @@ const details = [
     { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters" },
     { img: psd_img, title: "PSD To HTML", skills: "Adobe PhotoShop, HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/psd-to-html-1" },
     { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: baseURL + "rmit-s3740446-Ryan-Cassidy/CC-Assignment" },
+    { img: carrental_one_img, title: "Client Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3740446-Ryan-Cassidy/PIoT-Assignment-2" },
+    { img: carrental_two_img, title: "Admin Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/PIoT-Assignment-3" },
     { img: burger_img, title: "Burger App(In Progress)", skills: "React JS", url: baseURL + "vineet39/react-burger-app.git" },
     { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website" }
 ];
