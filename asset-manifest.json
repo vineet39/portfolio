@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c0ad5bb1.chunk.css",
-    "main.js": "/portfolio/static/js/main.6e302817.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6e302817.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.80bf5617.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.80bf5617.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.4ce883f9.chunk.css": "/portfolio/static/css/2.4ce883f9.chunk.css",
-    "static/js/2.91b6cd19.chunk.js": "/portfolio/static/js/2.91b6cd19.chunk.js",
-    "static/js/2.91b6cd19.chunk.js.map": "/portfolio/static/js/2.91b6cd19.chunk.js.map",
+    "static/js/2.7427a668.chunk.js": "/portfolio/static/js/2.7427a668.chunk.js",
+    "static/js/2.7427a668.chunk.js.map": "/portfolio/static/js/2.7427a668.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f8c8cdcc49fa83d3d2ef94ac86a76ead.js": "/portfolio/precache-manifest.f8c8cdcc49fa83d3d2ef94ac86a76ead.js",
+    "precache-manifest.6f4eca49cfa288a0d6a9ae58f3088b07.js": "/portfolio/precache-manifest.6f4eca49cfa288a0d6a9ae58f3088b07.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.4ce883f9.chunk.css.map": "/portfolio/static/css/2.4ce883f9.chunk.css.map",
     "static/css/main.c0ad5bb1.chunk.css.map": "/portfolio/static/css/main.c0ad5bb1.chunk.css.map",
-    "static/js/2.91b6cd19.chunk.js.LICENSE.txt": "/portfolio/static/js/2.91b6cd19.chunk.js.LICENSE.txt",
+    "static/js/2.7427a668.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7427a668.chunk.js.LICENSE.txt",
     "static/media/bank.jpg": "/portfolio/static/media/bank.6907bf0f.jpg",
     "static/media/burger.png": "/portfolio/static/media/burger.00d967dc.png",
+    "static/media/carrental_one.jpg": "/portfolio/static/media/carrental_one.66b21d77.jpg",
+    "static/media/carrental_two.jpg": "/portfolio/static/media/carrental_two.da2e8f9f.jpg",
     "static/media/font-awesome.min.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/jemena.png": "/portfolio/static/media/jemena.b244c809.png",
     "static/media/psd.png": "/portfolio/static/media/psd.f0377e65.png",
@@ -24,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.4ce883f9.chunk.css",
-    "static/js/2.91b6cd19.chunk.js",
+    "static/js/2.7427a668.chunk.js",
     "static/css/main.c0ad5bb1.chunk.css",
-    "static/js/main.6e302817.chunk.js"
+    "static/js/main.80bf5617.chunk.js"
   ]
 }

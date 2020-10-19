@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bb8c0c32b73131324a45933275df4a8",
+    "revision": "4a4ffb6022c024553a2063cefcc7ea69",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ce55dacfa890fe82c9fb",
+    "revision": "48ffd0e21a411e4d99a5",
     "url": "/portfolio/static/css/2.4ce883f9.chunk.css"
   },
   {
-    "revision": "6edb279e35f6bc6fa443",
+    "revision": "59d3d5801c01fdfdd4e3",
     "url": "/portfolio/static/css/main.c0ad5bb1.chunk.css"
   },
   {
-    "revision": "ce55dacfa890fe82c9fb",
-    "url": "/portfolio/static/js/2.91b6cd19.chunk.js"
+    "revision": "48ffd0e21a411e4d99a5",
+    "url": "/portfolio/static/js/2.7427a668.chunk.js"
   },
   {
     "revision": "6c88e50fd546ef59bde03720d9766cbb",
-    "url": "/portfolio/static/js/2.91b6cd19.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.7427a668.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6edb279e35f6bc6fa443",
-    "url": "/portfolio/static/js/main.6e302817.chunk.js"
+    "revision": "59d3d5801c01fdfdd4e3",
+    "url": "/portfolio/static/js/main.80bf5617.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "00d967dc4ae8351e51e0a08efc454f56",
     "url": "/portfolio/static/media/burger.00d967dc.png"
+  },
+  {
+    "revision": "66b21d776cedcd26b5817dce549789a4",
+    "url": "/portfolio/static/media/carrental_one.66b21d77.jpg"
+  },
+  {
+    "revision": "da2e8f9f9f1c0e138da820c997754824",
+    "url": "/portfolio/static/media/carrental_two.da2e8f9f.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
