@@ -25,7 +25,7 @@ const details = [
     { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: baseURL + "rmit-s3740446-Ryan-Cassidy/CC-Assignment" },
     { img: carrental_one_img, title: "Client Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3740446-Ryan-Cassidy/PIoT-Assignment-2" },
     { img: carrental_two_img, title: "Admin Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/PIoT-Assignment-3" },
-    { img: burger_img, title: "Burger App(In Progress)", skills: "React JS", url: baseURL + "vineet39/react-burger-app.git" },
+    { img: burger_img, title: "Burger Ordering App", skills: "React JS", url: baseURL + "vineet39/react-burger-app.git" },
     { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website" }
 ];
 
@@ -57,26 +57,42 @@ class Projects extends Component {
         }
     };
     render() {
-        return (
-            <Aux>
-                <div className="container my-projects" id="my-projects">
-                    <Title title="My Projects" inverted={false} />
-                    <div className="row">
-                        {details.slice(this.state.minValue, this.state.maxValue).map(val => (
-                            <Card key={val.title} img={val.img} title={val.title} skills={val.skills} url={val.url} />
-                        ))}
-                    </div>
-                    <div className="pagination">
-                            <Pagination
-                                defaultCurrent={defaultCurrent}
-                                defaultPageSize={maxCardsViewableAtATime}
-                                onChange={this.handleChange}
-                                total={details.length}
-                            />
-                        </div>
-                </div>
-                <svg xmlns="http://www.w3.org/2000/svg" className="projects-bottom-svg" viewBox="0 0 1440 320"><path fill="#990000" fill-opacity="1" d="M0,256L48,245.3C96,235,192,213,288,181.3C384,149,480,107,576,117.3C672,128,768,192,864,229.3C960,267,1056,277,1152,256C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-            </Aux>
+        return ( <
+            Aux >
+            <
+            div className = "container my-projects"
+            id = "my-projects" >
+            <
+            Title title = "My Projects"
+            inverted = { false }
+            /> <
+            div className = "row" > {
+                details.slice(this.state.minValue, this.state.maxValue).map(val => ( <
+                    Card key = { val.title }
+                    img = { val.img }
+                    title = { val.title }
+                    skills = { val.skills }
+                    url = { val.url }
+                    />
+                ))
+            } <
+            /div> <
+            div className = "pagination" >
+            <
+            Pagination defaultCurrent = { defaultCurrent }
+            defaultPageSize = { maxCardsViewableAtATime }
+            onChange = { this.handleChange }
+            total = { details.length }
+            /> <
+            /div> <
+            /div> <
+            svg xmlns = "http://www.w3.org/2000/svg"
+            className = "projects-bottom-svg"
+            viewBox = "0 0 1440 320" > < path fill = "#990000"
+            fill - opacity = "1"
+            d = "M0,256L48,245.3C96,235,192,213,288,181.3C384,149,480,107,576,117.3C672,128,768,192,864,229.3C960,267,1056,277,1152,256C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" > < /path></svg >
+            <
+            /Aux>
         );
     }
 }
