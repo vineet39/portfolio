@@ -8,7 +8,6 @@ const title = ( props ) => {
             <div className={`title ${props.inverted ? 'title-inverted' : ''}`}>
                 <h2>{props.title}</h2>
             </div>
-            <div className={`title-bottom ${props.inverted ? 'title-bottom-inverted' : ''}`}></div>
         </Aux>
     );
 };
