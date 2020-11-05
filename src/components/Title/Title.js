@@ -6,7 +6,7 @@ const title = ( props ) => {
     return (
         <Aux>
             <div className={`title ${props.inverted ? 'title-inverted' : ''}`}>
-                <h2>{props.title}</h2>
+                <h2 id="title">{props.title}</h2>
             </div>
         </Aux>
     );
