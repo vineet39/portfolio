@@ -2,7 +2,7 @@
     max-width: 80%;
     margin: auto;
     margin-bottom: 30px;
-    box-shadow: 5px 10px 10px var(--color-primary);
+    box-shadow: 0 0 10px 1px lightgrey;
 }
 
 .card-body {
@@ -12,10 +12,12 @@
 
 .card-body h5 {
     color: var(--color-primary) !important;
+    font-weight: 600;
 }
 
 .card-body h6 {
     color: var(--color-primary) !important;
+    font-weight: 500;
 }
 
 .card-body a span {

@@ -13,12 +13,21 @@
 
 ul {
     font-size: 17px;
+    font-weight: 400;
 }
 
 .work-tab h4,
 h5 {
     text-align: center;
     color: var(--color-primary);
+}
+
+.work-tab h4 {
+    font-weight: 600;
+}
+
+.work-tab h5 {
+    font-weight: 500;
 }
 
 @media screen and (max-width: 991px) {
