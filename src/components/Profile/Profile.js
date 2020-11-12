@@ -4,8 +4,8 @@ import classNames from './Profile.css';
 
 const profile = () => {
     const details = {
-        intro: "My name is Vineet. I am a...",
-        profile: "Analytically minded and collaborative individual desiring the job of a software developer. I would be bringing to the table experience in writing full-stack code with a willingness to learn new technologies and embrace challenging tasks at work.",
+        intro: "HII! I'M VINEET",
+        profile: "I am a recent graduate from RMIT university with prior industry experience in web development. I am currently seeking a full-time software developer role.",
     };
 
     return (

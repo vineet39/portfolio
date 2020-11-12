@@ -15,6 +15,10 @@ h3 {
     margin-bottom: 15px;
 }
 
+.profile h2 {
+    width: 100%;
+}
+
 .profile h3 {
     width: 80%;
     margin-top: 30px;
@@ -22,10 +26,12 @@ h3 {
 
 .profile h2 {
     font-weight: bold;
+    font-size: 60px;
 }
 
 .profile h3 {
     font-weight: 300;
+    font-size: 32px;
 }
 
 .profile-btntext {
@@ -58,7 +64,7 @@ h3 {
 @media screen and (max-width: 700px) {
     .profile h2,
     h3 {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -73,10 +79,10 @@ h3 {
         scroll-margin-top: 55px;
     }
     .profile h2 {
-        font-size: 1.5rem;
+        font-size: 32px;
     }
     .profile h3 {
-        font-size: 1.4rem;
+        font-size: 20px;
     }
     .profile {
         padding-top: 20vw;

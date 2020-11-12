@@ -11,20 +11,9 @@
     min-height: 350px;
 }
 
-/* .resp-list {
-    list-style-type: none;
+ul {
+    font-size: 17px;
 }
-
-.resp-list li:before {
-    content: '';
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background-size: 10px;
-    background-image: url("http://www.freepngimg.com/thumb/star/1-red-star-png-image-thumb.png");
-    background-repeat: no-repeat;
-    margin-right: 10px;
-} */
 
 .work-tab h4,
 h5 {
