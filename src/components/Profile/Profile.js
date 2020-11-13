@@ -11,7 +11,7 @@ const profile = () => {
     return (
         <Aux>
             <div className="profile" id="profile">
-                <h2>{details.intro}</h2>
+                <p>{details.intro}</p>
                 <h3>{details.profile}</h3>
                 <a className="profile-btn text-center" href="https://drive.google.com/uc?export=download&id=1kY8FVWzLC9NrXreYDQbgM3l6dFtxCwqX">
                     Download Resume
