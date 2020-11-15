@@ -37,7 +37,7 @@ jobs:
         CI: false
 
     - name: Test
-      run: npm test -u
+      run: npm run test -- -u
       env:
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
