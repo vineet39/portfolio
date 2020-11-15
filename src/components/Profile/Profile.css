@@ -20,14 +20,15 @@ h3 {
 }
 
 .profile p {
-    animation: animated-text 4s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: solid 3px var(--color-primary);
+    /* animation: animated-text 4s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* border-right: solid 3px var(--color-primary); */
     width: 470px;
 }
 
-@keyframes animated-text {
+
+/* @keyframes animated-text {
     from {
         width: 0;
     }
@@ -40,7 +41,7 @@ h3 {
     to {
         border-right-color: transparent;
     }
-}
+} */
 
 .profile h3 {
     width: 75%;
