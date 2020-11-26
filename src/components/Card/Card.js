@@ -4,15 +4,22 @@ import classes from './Card.css';
 
 const card = (props) => (
     <Aux>
-        <div className="col-lg-4 col-md-6 ">
+        <div className="col-lg-4 col-md-6">
             <div className="card my-card">
                 <img className="card-img-top" src={props.img} alt="Img Not available" />
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <h6 className="card-title">{props.skills}</h6>
-                    <a className="btn" href={props.url}>
-                        <span className="btntext">View Now</span>
-                    </a>
+                    <div className="options">
+                        {(props.liveURL != "" || props.videoURL != "") &&
+                            <a className="btn mb-2" href={props.liveURL != "" ? props.liveURL : props.videoURL}>
+                                <span className="btntext">View {props.liveURL != "" ? 'Live' : 'Video'}</span>
+                            </a>
+                        }
+                        <a className="btn mb-2 ml-1" href={props.url}>
+                            <span className="btntext">View Repo</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

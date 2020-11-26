@@ -19,17 +19,16 @@ import classes from './Projects.css';
 const baseURL = "https://github.com/";
 
 const details = [
-    { img: bank_img, title: "Client Banking Website", skills: ".Net Core 3.0", url: baseURL + "rmit-wdt2020/customer-banking-application" },
-    { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8", url: baseURL + "rmit-wdt2020/admin-banking-application" },
-    { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters" },
-    { img: psd_img, title: "PSD To HTML", skills: "Adobe PhotoShop, HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/psd-to-html-1" },
-    { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: baseURL + "rmit-s3740446-Ryan-Cassidy/CC-Assignment" },
-    { img: carrental_one_img, title: "Client Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3740446-Ryan-Cassidy/PIoT-Assignment-2" },
-    { img: carrental_two_img, title: "Admin Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/PIoT-Assignment-3" },
-    { img: burger_img, title: "Burger Ordering App", skills: "React JS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git" },
-    { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website" },
-    { img: dating, title: "Dating Website", skills: ".Net Core 3.0, Angular 8", url: baseURL + "vineet39/dating-app" },
-
+    { img: burger_img, title: "Burger Ordering App", skills: "React JS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git", liveURL: "https://vineet39.github.io/react-burger-app/", videoURL:"" },
+    { img: dating, title: "Dating Website", skills: ".Net Core 3.0, Angular 8, TypeScript", url: baseURL + "vineet39/dating-app", liveURL: "", videoURL:"https://youtu.be/AmxZA5F4Yy8" },
+    { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters", liveURL: "", videoURL:"https://youtu.be/cnWWMJBE5Lc" },
+    { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website", liveURL: "https://rmit-s3734938-vineet-bugtani.github.io/rock-paper-scissors-game-website/", videoURL:"" },
+    { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: baseURL + "rmit-s3740446-Ryan-Cassidy/CC-Assignment", liveURL: "", videoURL:"" },
+    { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8", url: baseURL + "rmit-wdt2020/admin-banking-application", liveURL: "", videoURL:"def" },
+    { img: bank_img, title: "Client Banking Website", skills: ".Net Core 3.0", url: baseURL + "rmit-wdt2020/customer-banking-application", liveURL: "", videoURL:"" },
+    { img: psd_img, title: "PSD To HTML", skills: "Adobe PhotoShop, HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/psd-to-html-1", liveURL: "", videoURL:"" },
+    { img: carrental_one_img, title: "Client Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3740446-Ryan-Cassidy/PIoT-Assignment-2", liveURL: "", videoURL:"" },
+    { img: carrental_two_img, title: "Admin Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/PIoT-Assignment-3", liveURL: "", videoURL:"" },
 ];
 
 const defaultCurrent = 1;
@@ -66,7 +65,7 @@ class Projects extends Component {
                     <Title title="My Projects" inverted={false} />
                     <div className="row">
                         {details.slice(this.state.minValue, this.state.maxValue).map(val => (
-                            <Card key={val.title} img={val.img} title={val.title} skills={val.skills} url={val.url} />
+                            <Card key={val.title} img={val.img} title={val.title} skills={val.skills} url={val.url} liveURL={val.liveURL} videoURL={val.videoURL}/>
                         ))}
                     </div>
                     <div className="pagination">

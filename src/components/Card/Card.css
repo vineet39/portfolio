@@ -46,6 +46,11 @@
     color: var(--color-primary);
 }
 
+.options {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 767px) {
     .my-card {
         max-width: 60%;
