@@ -19,12 +19,12 @@ import classes from './Projects.css';
 const baseURL = "https://github.com/";
 
 const details = [
-    { img: burger_img, title: "Burger Ordering App", skills: "React JS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git", liveURL: "https://vineet39.github.io/react-burger-app/", videoURL:"" },
+    { img: burger_img, title: "Burger Ordering Website", skills: "React JS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git", liveURL: "https://vineet39.github.io/react-burger-app/", videoURL:"" },
     { img: dating, title: "Dating Website", skills: ".Net Core 3.0, Angular 8, TypeScript", url: baseURL + "vineet39/dating-app", liveURL: "", videoURL:"https://youtu.be/AmxZA5F4Yy8" },
     { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters", liveURL: "", videoURL:"https://youtu.be/cnWWMJBE5Lc" },
     { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website", liveURL: "https://rmit-s3734938-vineet-bugtani.github.io/rock-paper-scissors-game-website/", videoURL:"" },
     { img: aws_img, title: "Cloud Computing Project", skills: "AWS Services", url: baseURL + "rmit-s3740446-Ryan-Cassidy/CC-Assignment", liveURL: "", videoURL:"" },
-    { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8", url: baseURL + "rmit-wdt2020/admin-banking-application", liveURL: "", videoURL:"def" },
+    { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8, TypeScript", url: baseURL + "rmit-wdt2020/admin-banking-application", liveURL: "", videoURL:"" },
     { img: bank_img, title: "Client Banking Website", skills: ".Net Core 3.0", url: baseURL + "rmit-wdt2020/customer-banking-application", liveURL: "", videoURL:"" },
     { img: psd_img, title: "PSD To HTML", skills: "Adobe PhotoShop, HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/psd-to-html-1", liveURL: "", videoURL:"" },
     { img: carrental_one_img, title: "Client Car Rental Website", skills: "Python, Flask, JS", url: baseURL + "rmit-s3740446-Ryan-Cassidy/PIoT-Assignment-2", liveURL: "", videoURL:"" },

@@ -13,11 +13,11 @@ const card = (props) => (
                     <div className="options">
                         {(props.liveURL != "" || props.videoURL != "") &&
                             <a className="btn mb-2" href={props.liveURL != "" ? props.liveURL : props.videoURL}>
-                                <span className="btntext">View {props.liveURL != "" ? 'Live' : 'Video'}</span>
+                                <span className="btntext">{props.liveURL != "" ? <span className="btntext">Live At <i class="fas fa-external-link-alt"></i></span> : <span className="btntext">View <i class="fab fa-youtube"></i></span>}</span>
                             </a>
                         }
                         <a className="btn mb-2 ml-1" href={props.url}>
-                            <span className="btntext">View Repo</span>
+                            <span className="btntext">View <i class="fab fa-github"></i></span>
                         </a>
                     </div>
                 </div>
