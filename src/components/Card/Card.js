@@ -1,6 +1,7 @@
 import React from 'react';
 import Aux from '../../hoc/Aux';
 import classes from './Card.css';
+import axios from '../../../src/axios';
 
 const card = (props) => (
     <Aux>
@@ -12,11 +13,11 @@ const card = (props) => (
                     <h6 className="card-title">{props.skills}</h6>
                     <div className="options">
                         {(props.liveURL != "" || props.videoURL != "") &&
-                            <a className="btn mb-2" href={props.liveURL != "" ? props.liveURL : props.videoURL}>
+                            <a className="btn mb-2" href={props.liveURL != "" ? props.liveURL : props.videoURL} onClick={() => sendNotification(props.title + ' ' + ' Live/Video Url')}>
                                 <span className="btntext">{props.liveURL != "" ? <span className="btntext">Live At <i className="fas fa-external-link-alt"></i></span> : <span className="btntext">View <i className="fab fa-youtube"></i></span>}</span>
                             </a>
                         }
-                        <a className="btn mb-2 ml-1" href={props.url}>
+                        <a className="btn mb-2 ml-1" href={props.url} onClick={() => sendNotification(props.title + ' ' + ' Github Url')}>
                             <span className="btntext">View <i className="fab fa-github"></i></span>
                         </a>
                     </div>
@@ -25,5 +26,10 @@ const card = (props) => (
         </div>
     </Aux>
 );
+
+const sendNotification = (data) => {
+    axios.post('/openedURL.json', JSON.stringify(data))
+        .catch(error => console.log(error));
+}
 
 export default card;
