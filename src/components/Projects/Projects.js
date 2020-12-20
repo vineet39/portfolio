@@ -15,11 +15,13 @@ import dating from '../../assets/images/dating.jpeg';
 import 'antd/dist/antd.css';
 import { Pagination } from 'antd';
 import classes from './Projects.css';
+import cv_img from '../../assets/images/cv.jpg';
 
 const baseURL = "https://github.com/";
 
 const details = [
     { img: burger_img, title: "Burger Ordering Website", skills: "React JS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git", liveURL: "https://vineet39.github.io/react-burger-app/", videoURL:"" },
+    { img: cv_img, title: "Covid-19 Tracker Website", skills: "ReactJS, Material-UI", url: baseURL + "vineet39/react-covid-tracker.git", liveURL: "https://vineet39.github.io/react-covid-tracker/", videoURL:"" },
     { img: dating, title: "Dating Website", skills: ".Net Core 3.0, Angular 8, TypeScript", url: baseURL + "vineet39/dating-app", liveURL: "", videoURL:"https://youtu.be/AmxZA5F4Yy8" },
     { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters", liveURL: "", videoURL:"https://youtu.be/cnWWMJBE5Lc" },
     { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website", liveURL: "https://rmit-s3734938-vineet-bugtani.github.io/rock-paper-scissors-game-website/", videoURL:"" },
