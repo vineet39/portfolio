@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.63ad455a.chunk.css",
-    "main.js": "/portfolio/static/js/main.a5b87884.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a5b87884.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.efb38810.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.efb38810.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.4ce883f9.chunk.css": "/portfolio/static/css/2.4ce883f9.chunk.css",
-    "static/js/2.75c9ec20.chunk.js": "/portfolio/static/js/2.75c9ec20.chunk.js",
-    "static/js/2.75c9ec20.chunk.js.map": "/portfolio/static/js/2.75c9ec20.chunk.js.map",
+    "static/js/2.2d0ae245.chunk.js": "/portfolio/static/js/2.2d0ae245.chunk.js",
+    "static/js/2.2d0ae245.chunk.js.map": "/portfolio/static/js/2.2d0ae245.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.98e3a2f0b438ce52e3fdfc011d865520.js": "/portfolio/precache-manifest.98e3a2f0b438ce52e3fdfc011d865520.js",
+    "precache-manifest.433dc8e83bcd4351cbd311213241a0e0.js": "/portfolio/precache-manifest.433dc8e83bcd4351cbd311213241a0e0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.4ce883f9.chunk.css.map": "/portfolio/static/css/2.4ce883f9.chunk.css.map",
     "static/css/main.63ad455a.chunk.css.map": "/portfolio/static/css/main.63ad455a.chunk.css.map",
-    "static/js/2.75c9ec20.chunk.js.LICENSE.txt": "/portfolio/static/js/2.75c9ec20.chunk.js.LICENSE.txt",
+    "static/js/2.2d0ae245.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2d0ae245.chunk.js.LICENSE.txt",
     "static/media/bank.jpg": "/portfolio/static/media/bank.6907bf0f.jpg",
     "static/media/burger.png": "/portfolio/static/media/burger.00d967dc.png",
     "static/media/carrental_one.jpg": "/portfolio/static/media/carrental_one.66b21d77.jpg",
     "static/media/carrental_two.jpg": "/portfolio/static/media/carrental_two.da2e8f9f.jpg",
+    "static/media/cv.jpg": "/portfolio/static/media/cv.264428a4.jpg",
     "static/media/dating.jpeg": "/portfolio/static/media/dating.034163ba.jpeg",
     "static/media/font-awesome.min.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/jemena.png": "/portfolio/static/media/jemena.b244c809.png",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.4ce883f9.chunk.css",
-    "static/js/2.75c9ec20.chunk.js",
+    "static/js/2.2d0ae245.chunk.js",
     "static/css/main.63ad455a.chunk.css",
-    "static/js/main.a5b87884.chunk.js"
+    "static/js/main.efb38810.chunk.js"
   ]
 }
