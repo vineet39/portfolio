@@ -13,9 +13,6 @@ const profile = () => {
             <div className="profile" id="profile">
                 <p>{details.intro}</p>
                 <h3>{details.profile}</h3>
-                <a className="profile-btn text-center" href="https://drive.google.com/uc?export=download&id=1kY8FVWzLC9NrXreYDQbgM3l6dFtxCwqX">
-                    Download Resume
-                </a>
             </div>
         </Aux>
     );
