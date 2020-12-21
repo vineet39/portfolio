@@ -13,7 +13,7 @@ const workExperience = () => {
             , responsibilities: ["Fixing bugs and issues reported to product owner by users", "Website maintenance and optimization."]
         },
         Jemena: {
-            companyname: "Software Developer, Jemena", detail: "Part time | Melbourne | March 2020 - June 2020"
+            companyname: "Software Developer, Jemena", detail: "Internship | Melbourne | March 2020 - August 2020"
             , responsibilities: ["Coded the entire front-end of the prototype application in React Native– integrated a new feature into the application with each sprint. Made RESTful APIs in ASP.NET Core with another developer.", "Effectively translated business requirements into a technical design and transformed that design into a working application.",
                 "Managed a team of five students including myself by conducting regular online meetings, delegating work to each team member depending on their current skill set."]
         },
