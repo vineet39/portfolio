@@ -17,7 +17,7 @@ const card = (props) => {
                         <div className="options">
                             {(props.liveURL != "" || props.videoURL != "") &&
                                 <a className="btn mb-2" onClick={() => sendNotification(props.title + ' ' + ' Live/Video Url', videoOrLiveUrl)}>
-                                    <span className="btntext">{props.liveURL != "" ? <span className="btntext">Live At <i className="fas fa-external-link-alt"></i></span> : <span className="btntext">View <i className="fab fa-youtube"></i></span>}</span>
+                                    <span className="btntext">{props.liveURL != "" ? <span className="btntext" id="liveAt">Live At <i className="fas fa-external-link-alt"></i></span> : <span className="btntext" id="view">View <i className="fab fa-youtube"></i></span>}</span>
                                 </a>
                             }
                             <a className="btn mb-2 ml-1" onClick={() => sendNotification(props.title + ' ' + ' Github Url', url)}>

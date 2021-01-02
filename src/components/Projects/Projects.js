@@ -12,15 +12,15 @@ import psd_img from '../../assets/images/psd.png';
 import carrental_one_img from '../../assets/images/carrental_one.jpg';
 import carrental_two_img from '../../assets/images/carrental_two.jpg';
 import dating from '../../assets/images/dating.jpeg';
+import cv_img from '../../assets/images/cv.jpg';
 import 'antd/dist/antd.css';
 import { Pagination } from 'antd';
 import classes from './Projects.css';
-import cv_img from '../../assets/images/cv.jpg';
 
 const baseURL = "https://github.com/";
 
 const details = [
-    { img: burger_img, title: "Burger Ordering Website", skills: "React JS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git", liveURL: "https://vineet39.github.io/react-burger-app/", videoURL:"" },
+    { img: burger_img, title: "Burger Ordering Website", skills: "ReactJS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git", liveURL: "https://vineet39.github.io/react-burger-app/", videoURL:"" },
     { img: cv_img, title: "Covid-19 Tracker Website", skills: "ReactJS, Material-UI", url: baseURL + "vineet39/react-covid-tracker.git", liveURL: "https://vineet39.github.io/react-covid-tracker/", videoURL:"" },
     { img: dating, title: "Dating Website", skills: ".Net Core 3.0, Angular 8, TypeScript", url: baseURL + "vineet39/dating-app", liveURL: "", videoURL:"https://youtu.be/AmxZA5F4Yy8" },
     { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters", liveURL: "", videoURL:"https://youtu.be/cnWWMJBE5Lc" },
@@ -79,7 +79,7 @@ class Projects extends Component {
                             />
                         </div>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" className="projects-bottom-svg" viewBox="0 0 1440 320"><path fill="#990000" fillOpacity="1" d="M0,256L48,245.3C96,235,192,213,288,181.3C384,149,480,107,576,117.3C672,128,768,192,864,229.3C960,267,1056,277,1152,256C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                {/* <svg xmlns="http://www.w3.org/2000/svg" className="projects-bottom-svg" viewBox="0 0 1440 320"><path fill="#2c3e50" fillOpacity="1" d="M0,256L48,245.3C96,235,192,213,288,181.3C384,149,480,107,576,117.3C672,128,768,192,864,229.3C960,267,1056,277,1152,256C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> */}
             </Aux>
         );
     }

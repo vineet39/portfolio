@@ -2,46 +2,26 @@
 .profile {
     align-items: center;
     padding-top: 10vw;
-    padding-bottom: 5vw;
+    padding-bottom: 10vw;
     margin-top: 0px;
     background-color: var(--color-secondary);
 }
 
 .profile p,
 h3 {
-    color: var(--color-primary);
     margin: auto;
     text-align: center;
     margin-bottom: 15px;
 }
 
+.profile p {
+    color: var(--color-primary);
+}
+
 .profile h3 {
     width: 60%;
+    color: var(--grey-color);
 }
-
-.profile p {
-    /* animation: animated-text 4s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite; */
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    /* border-right: solid 3px var(--color-primary); */
-    width: 470px;
-}
-
-
-/* @keyframes animated-text {
-    from {
-        width: 0;
-    }
-}
-
-@keyframes animated-cursor {
-    from {
-        border-right-color: var(--color-primary);
-    }
-    to {
-        border-right-color: transparent;
-    }
-} */
 
 .profile h3 {
     width: 75%;
@@ -89,6 +69,9 @@ h3 {
     .profile h3 {
         width: 90%;
     }
+    .profile p {
+        font-size: 45px;
+    }
 }
 
 @media screen and (max-width: 683px) {
@@ -103,14 +86,13 @@ h3 {
     }
     .profile p {
         font-size: 40px;
-        width: 320px;
     }
     .profile h3 {
         font-size: 22px;
     }
     .profile {
         padding-top: 20vw;
-        padding-bottom: 10vw;
+        padding-bottom: 20vw;
     }
     .profile-btn {
         padding: 10px;
