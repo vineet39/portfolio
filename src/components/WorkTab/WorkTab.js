@@ -1,6 +1,7 @@
 import React from 'react';
 import Aux from '../../hoc/Aux';
 import classes from './WorkTab.css';
+import PropTypes from 'prop-types';
 
 const workTab = (props) => {
     const items = Object.keys(props.responsibilities).map(key => 
@@ -21,5 +22,12 @@ const workTab = (props) => {
         </Aux>
     );
 };
+
+workTab.propTypes = {
+    year: PropTypes.string.isRequired,
+    companyname: PropTypes.string.isRequired,
+    detail: PropTypes.string.isRequired,
+    skills: PropTypes.string.isRequired,
+  };
 
 export default workTab;

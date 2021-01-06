@@ -10,19 +10,19 @@ const workExperience = () => {
     const details = {
         Newgen: {
             companyname: "Web Developer, Newgen Apparel", detail: "One day/week | Melbourne | July 2020 - Ongoing"
-            , responsibilities: ["Fixing bugs and issues reported to product owner by users", "Website maintenance and optimization."]
+            , responsibilities: ["Fixing bugs and issues reported to product owner by users", "Website maintenance and optimization."], year: "2020"
         },
         Jemena: {
             companyname: "Software Developer, Jemena", detail: "Internship | Melbourne | March 2020 - August 2020"
             , responsibilities: ["Coded the entire front-end of the prototype application in React Native– integrated a new feature into the application with each sprint. Made RESTful APIs in ASP.NET Core with another developer.", "Effectively translated business requirements into a technical design and transformed that design into a working application.",
-                "Managed a team of five students including myself by conducting regular online meetings, delegating work to each team member depending on their current skill set."]
+                "Managed a team of five students including myself by conducting regular online meetings, delegating work to each team member depending on their current skill set."], year: "2020"
         },
         Accenture: {
             companyname: "Web Developer, Accenture", detail: "Full time | Mumbai | Nov 2016 - June 2018"
-            , responsibilities: ["Developed UI and business logic of new features to be integrated in the website in .NET.", "Developed SQL stored procedures.", "Automated SQL scripting tasks that used to take 2 weeks/module to complete when typed manually. With the software written in object-oriented Excel VBA, the time taken to generate the scripts was cut down by 60% per module."]
+            , responsibilities: ["Developed UI and business logic of new features to be integrated in the website in .NET.", "Developed SQL stored procedures.", "Automated SQL scripting tasks that used to take 2 weeks/module to complete when typed manually. With the software written in object-oriented Excel VBA, the time taken to generate the scripts was cut down by 60% per module."], year: "2018"
         },
     };
-    
+
     const allItems = Object.keys(details).map(key =>
         <WorkTab key={key} companyname={details[key].companyname} detail={details[key].detail} responsibilities={details[key].responsibilities} year={details[key].year} skills={details[key].skills} />
     );
